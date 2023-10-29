@@ -1,0 +1,11 @@
+{
+  "name": "jgh",
+  "description": "Jacobs Game Hub (JGH) is an unblocked games website made specifically for Jacob A, this website also contains a built in Ultraviolet web proxy and Apps",
+  "repository": "https://github.com/CybriaTech/JGH",
+  "logo": "https://github.com/CybriaTech/JGH/blob/main/static/img/jgh/cover.png",
+  "keywords": [
+    "unblocked",
+    "games",
+    "ultraviolet"
+  ]
+}
