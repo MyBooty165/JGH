@@ -1,0 +1,19 @@
+{
+  "name": "jgh",
+  "version": "1.0.0",
+  "description": "Jacobs Game Hub (JGH) is an unblocked games website made specifically for Jacob A, this website also contains a built in Ultraviolet web proxy and Apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CybriaTech",
+  "license": "ISC",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^2.0.1",
+    "@types/node": "^18.0.6",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.2.6",
+    "node-static": "^0.7.11",
+    "serve-static": "^1.15.0"
+  }
+}
