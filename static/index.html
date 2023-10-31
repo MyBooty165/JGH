@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Games | Jacobs Game Hub</title>
+<meta charset="utf-8"/>
+         <style>
+        /* Default favicon for all screen sizes */
+        link[rel="icon"] {
+            display: none; /* Hide the default favicon */
+        }
+
+        /* Favicon for small screens */
+        @media (max-width: 767px) {
+            link[rel="icon"][type="image/x-icon"] {
+                display: inline-block;
+            }
+        }
+
+        /* Favicon for medium screens */
+        @media (min-width: 768px) and (max-width: 1023px) {
+            link[rel="icon"][type="image/png"][sizes="32x32"] {
+                display: inline-block;
+            }
+        }
+
+        /* Favicon for large screens */
+        @media (min-width: 1024px) {
+            link[rel="icon"][type="image/png"][sizes="64x64"] {
+                display: inline-block;
+            }
+        }
+    </style>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="🎮Jacobs Game Hub (JGH) is an unblocked games website made specifically for Jacob A, this website also contains a built in Ultraviolet web proxy and Apps 🕹" name="description"/>
+<meta content="games, unblocked games, bypass" name="keywords"/>
+<meta content="CybriaTech" name="author"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link rel="icon" type="image/x-icon" href="/img/logos/jgh.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/logos/jgh-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/logos/jgh-32x32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/img/logos/jgh-64x64.png">
+<link rel="icon" type="image/png" sizes="128x128" href="/img/favicon/cybria-games-128x128.png">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<link href="/css/games.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <header>
+    <a class="title" href="/">
+        <img src="/img/logos/jgh-logo.png" width="128" height="128">
+    </a>
+    <nav>
+      <a href="apps.html"><i class="fas fa-laptop></i> Apps</a>
+    <a href="proxy.html"><i class="fas fa-browser"></i> Proxy</a>
+    <a href="settings.html"><i class="fas fa-cog"></i> Settings</a>
+    </nav>
+  </header>
+<main>
+<div id="gamesContainer">
+  <div class="game">
+<a href="/g/1">
+<img alt="1" src="/img/games/1.png"/>
+<p class="game-title">1</p>
+</a>
+</div>
+<div class="game">
+<a href="/g/duck-life-1">
+<img alt="duck life 1" src="/img/games/duck-life-1.png"/>
+<p class="game-title">Duck Life 1</p>
+</a>
+</div>
+</main>
+<script>
+var elem = document.querySelector('.grid');
+var msnry = new Masonry( elem, {
+  itemSelector: '.grid-item',
+  columnWidth: 200
+});
+</script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/404.js"></script>
+</body>
+</html>
